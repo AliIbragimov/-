@@ -4,56 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="vendor/react.development.js"></script>
+    <script src="vendor/react-dom.development.js"></script>
+    <script src="vendor/babel.min.js"></script>
     <title>Новосельская СОШ</title>
   </head>
 
   <body>
     <div class="one">
-      <header class="one_header">
-        <div class="header_label">
-          <label class="label_top_name">МКОУ<br /></label>
-          <label class="label_name">Новосельская СОШ</label>
+      <header class="one-header">
+        <div class="header-label">
+          <label class="label-top-name">МКОУ<br /></label>
+          <label class="label-name">Новосельская СОШ</label>
           <label
             style="
               font-weight: 700;
               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              background-color: white;
             "
             ><br />368034 РД Хасавюртовский район <br />с.Новосельское ул.
             Центральная 46</label
           >
         </div>
         <tr>
-          <a href=""><tb class="header_tb text_stoke">Главная</tb></a>
-          <a href=""><tb class="header_tb text_stoke">Новости</tb></a>
-          <a href=""><tb class="header_tb text_stoke">Контакты</tb></a>
+          <a href=""><tb class="header-tb text-stoke">Главная</tb></a>
+          <a href=""><tb class="header-tb text-stoke">Новости</tb></a>
+          <a href=""><tb class="header-tb text-stoke">Контакты</tb></a>
         </tr>
       </header>
-      <nav class="one_nav">
+      <nav class="one-nav">
         <tr>
-          <a class="button_nav" href=""
-            ><tb class="td_nav">Прием в школу</tb></a
+          <a class="button-nav" href=""
+            ><tb class="td-nav">Прием в школу</tb></a
           >
-          <a class="button_nav" href=""><tb class="td_nav">Расписание</tb></a>
-          <a class="button_nav" href=""
-            ><tb class="td_nav">Руководство школы</tb></a
+          <a class="button-nav" href=""><tb class="td-nav">Расписание</tb></a>
+          <a class="button-nav" href=""
+            ><tb class="td-nav">Руководство школы</tb></a
           >
-          <a class="button_nav" href=""
-            ><tb class="td_nav">Вакантное место</tb></a
+          <a class="button-nav" href=""
+            ><tb class="td-nav">Вакантное место</tb></a
           >
         </tr>
       </nav>
-      <div class="one_main">
-        <div class="main_core">
-          <div class="core_1">
+      <div class="one-main">
+        <div class="main-core">
+          <div class="core-1">
             <main class="main">
-              <div class="main_selection1">
+              <div class="main-selection">
                 <section class="selection">
-                  <div class="selection_img">
+                  <div class="selection-img">
                     <img src="res/school.jpg" alt="" />
                   </div>
-                  <div class="selection_text">
-                    <h3 class="selection_h3">Родительское собрание!</h3>
-                    <p class="selection_p">
+                  <div class="selection-text">
+                    <h3 class="selection-h3">Родительское собрание!</h3>
+                    <p class="selection-p">
                       Сегодня прошло первое родительское ссобрание в новом
                       кабинете! Родители прибывали в восторге от успеваемости их
                       детей и были благодарны учителям!
@@ -61,14 +65,14 @@
                   </div>
                 </section>
               </div>
-              <div class="main_selection1">
+              <div class="main-selection">
                 <section class="selection">
-                  <div class="selection_img">
+                  <div class="selection-img">
                     <img src="res/dev.jpg" alt="" />
                   </div>
-                  <div class="selection_text">
-                    <h3 class="selection_h3">Сайт школы открыт!</h3>
-                    <p class="selection_p">
+                  <div class="selection-text">
+                    <h3 class="selection-h3">Сайт школы открыт!</h3>
+                    <p class="selection-p">
                       После нескольких дней активной разработки школьного сайт,
                       наша команда пришла к успеху! Сайт Новосельской СОШ теперь
                       активен и пересобран!
@@ -76,30 +80,14 @@
                   </div>
                 </section>
               </div>
-              <div class="main_selection1">
+              <div class="main-selection">
                 <section class="selection">
-                  <div class="selection_img">
+                  <div class="selection-img">
                     <img src="res/dev.jpg" alt="" />
                   </div>
-                  <div class="selection_text">
-                    <h3 class="selection_h3">Сайт школы открыт!</h3>
-                    <p class="selection_p">
-                      После нескольких дней активной разработки школьного сайт,
-                      наша команда пришла к успеху! Сайт Новосельской СОШ теперь
-                      активен и пересобран!
-                    </p>
-                  </div>
-                </section>
-              </div>
-
-              <div class="main_selection1">
-                <section class="selection">
-                  <div class="selection_img">
-                    <img src="res/dev.jpg" alt="" />
-                  </div>
-                  <div class="selection_text">
-                    <h3 class="selection_h3">Сайт школы открыт!</h3>
-                    <p class="selection_p">
+                  <div class="selection-text">
+                    <h3 class="selection-h3">Сайт школы открыт!</h3>
+                    <p class="selection-p">
                       После нескольких дней активной разработки школьного сайт,
                       наша команда пришла к успеху! Сайт Новосельской СОШ теперь
                       активен и пересобран!
@@ -108,14 +96,14 @@
                 </section>
               </div>
 
-              <div class="main_selection1">
+              <div class="main-selection">
                 <section class="selection">
-                  <div class="selection_img">
+                  <div class="selection-img">
                     <img src="res/dev.jpg" alt="" />
                   </div>
-                  <div class="selection_text">
-                    <h3 class="selection_h3">Сайт школы открыт!</h3>
-                    <p class="selection_p">
+                  <div class="selection-text">
+                    <h3 class="selection-h3">Сайт школы открыт!</h3>
+                    <p class="selection-p">
                       После нескольких дней активной разработки школьного сайт,
                       наша команда пришла к успеху! Сайт Новосельской СОШ теперь
                       активен и пересобран!
@@ -123,14 +111,30 @@
                   </div>
                 </section>
               </div>
-              <div class="main_selection1">
+
+              <div class="main-selection">
                 <section class="selection">
-                  <div class="selection_img">
+                  <div class="selection-img">
+                    <img src="res/dev.jpg" alt="" />
+                  </div>
+                  <div class="selection-text">
+                    <h3 class="selection-h3">Сайт школы открыт!</h3>
+                    <p class="selection-p">
+                      После нескольких дней активной разработки школьного сайт,
+                      наша команда пришла к успеху! Сайт Новосельской СОШ теперь
+                      активен и пересобран!
+                    </p>
+                  </div>
+                </section>
+              </div>
+              <div class="main-selection">
+                <section class="selection">
+                  <div class="selection-img">
                     <img src="res/open.jpg" alt="" />
                   </div>
-                  <div class="selection_text">
-                    <h3 class="selection_h3">Добро пожаловать!</h3>
-                    <p class="selection_p">
+                  <div class="selection-text">
+                    <h3 class="selection-h3">Добро пожаловать!</h3>
+                    <p class="selection-p">
                       Долгожданное открытие новой школы! После 6 месяцев работ,
                       наша школа может по праву называться новой! Мы очень
                       сильно рады такому событию!
@@ -140,59 +144,58 @@
               </div>
             </main>
           </div>
-          <div class="core_2">
+          <div class="core-2">
             <aside class="aside">
-              <ul class="aside_ul">
-                <li class="ul_li">Информация</li>
+              <ul class="aside-ul">
+                <li class="ul-li">Информация</li>
                 <a href="">
-                  <li class="ul_button">
+                  <li class="ul-button">
                     Сведенья об образовательной организации
                   </li>
                 </a>
                 <a href="">
-                  <li class="ul_button">Ображение граждан</liclass=>
-                </a>
-
-                <a href="">
-                  <li class="ul_button">Дополнительные сведенья</li>
+                  <li class="ul-button">Ображение граждан</li>
                 </a>
                 <a href="">
-                  <li class="ul_button">Питание</li>
+                  <li class="ul-button">Дополнительные сведенья</li>
                 </a>
                 <a href="">
-                  <li class="ul_button">
+                  <li class="ul-button">Питание</li>
+                </a>
+                <a href="">
+                  <li class="ul-button">
                     Центр цифрового и гуманитарного профиля "Точка роста"
                   </li>
                 </a>
-                <a href="" >
-                  <li class="ul_button">Организация питания</li>
+                <a href="">
+                  <li class="ul-button">Организация питания</li>
                 </a>
                 <a href="">
-                  <li class="ul_button">История школы</li>
+                  <li class="ul-button">История школы</li>
                 </a>
                 <a href="">
-                  <li class="ul_button">Учащимся</li>
+                  <li class="ul-button">Учащимся</li>
                 </a>
                 <a href="">
-                  <li class="ul_button">Образовательные стандарты</li>
+                  <li class="ul-button">Образовательные стандарты</li>
                 </a>
               </ul>
             </aside>
           </div>
         </div>
       </div>
-      <footer class="one_footer">
-        <div class="footer_phone">
-          <label class="phone_label"
+      <footer class="one-footer">
+        <div class="footer-phone">
+          <label class="phone-label"
             >Горячая линия:<br />
             +7(928)705-20-90</label
           >
         </div>
-        <div class="footer_center">
-          <label>Ибрагимов Али<br />version - 2.4</label>
+        <div class="footer-center">
+          <label>Ибрагимов Али</label>
         </div>
         <div class="footer-email">
-          <label class="email_label">Эл. Почта:<br />novo-school@mail.ru</label>
+          <label class="email-label">Эл. Почта:<br />novo-school@mail.ru</label>
         </div>
       </footer>
     </div>
